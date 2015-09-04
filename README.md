@@ -69,6 +69,25 @@ netcheck.hasLocal()
 
 > You may not trigger the connectivity monitor by not calling the `netcheck.init()` method, when any of the `hasInternet()` or `hasLocal()` methods are called they will perform the tests on the spot.
 
+### Events
+
+netcheck extends Node's native EventEmitter and provides the following methods:
+
+* `on(event, cb)`
+* `once(event, cb)`
+* `removeListener(event, cb)`
+* `removeAllListeners()`
+
+> [Read on for more on their definition and behavior](https://nodejs.org/api/events.html).
+
+Events emitted:
+
+* `internet` Gets emitted whenever a state change has occurred on the Internet connectivity.
+    * *isConnected*, *Type*: **Boolean** A single argument indicating connectivity.
+* `local` Gets emitted whenever a state change has occurred on the Local Network connectivity.
+    * *isConnected*, *Type*: **Boolean** A single argument indicating connectivity.
+
+
 ## Release History
 
 - **v0.0.1**, *04 Sep 2015*
