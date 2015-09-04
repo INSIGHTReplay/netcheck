@@ -29,12 +29,12 @@ var netcheck = require('netcheck');
 // Launch monitors, you only need to invoke this once.
 netcheck.init();
 
-netcheck.on('internet-connect', function() {
-    // handle internet connect
+netcheck.on('internet', function(isConnected) {
+    // handle internet connectivity state change
 });
 
-netcheck.on('internet-disconnect', function() {
-    // handle internet disconnection
+netcheck.on('local', function(isConnected) {
+    // handle local conntivity state change
 });
 
 netcheck.hasInternet()
