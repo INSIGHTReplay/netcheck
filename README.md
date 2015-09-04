@@ -2,7 +2,8 @@
 
 > Will monitor Internet and local network connectivity and inform about their state.
 
-[![Build Status](https://secure.travis-ci.org/INSIGHTReplay/netcheck.png?branch=master)](http://travis-ci.org/INSIGHTReplay/netcheck)
+[![Build Status](https://circleci.com/gh/INSIGHTReplay/netcheck.png?circle-token=9328f7b12294ef23a8772ff9e43f10fd899f9735)](https://circleci.com/gh/INSIGHTReplay/netcheck)
+
 
 ## Install
 
