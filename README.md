@@ -38,19 +38,17 @@ netcheck.on('local', function(isConnected) {
 });
 
 netcheck.hasInternet()
-    .then(function() {
-        // We have internet connectivity
-    })
-    .catch(function() {
-        // No connectivity
+    .then(function(isConnected) {
+        if (isConnected) {
+            // We have internet connectivity
+        }
     });
 
 netcheck.hasLocal()
-    .then(function() {
-        // We have connectivity with the local network
-    })
-    .catch(function() {
-        // No connectivity
+    .then(function(isConnected) {
+        if (isConnected) {
+            // We have connectivity with the local network
+        }
     });
 ```
 
