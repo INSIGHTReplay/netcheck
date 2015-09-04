@@ -7,7 +7,16 @@ var expect = chai.expect;
 var netcheck = require('../..');
 
 describe('Base API Surface', function() {
-  it('should do what...', function(){
-     // test!
+  it('should expose expected methods', function() {
+    expect(netcheck).to.have.keys([
+      'on',
+      'once',
+      'removeListener',
+      'removeAllListeners',
+      'init',
+      'setup',
+      'hasInternet',
+      'hasLocal',
+    ]);
   });
 });
