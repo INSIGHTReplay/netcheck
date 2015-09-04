@@ -27,18 +27,18 @@
   },
   "dependencies": {
     "cip": "~1.0.0",
-    "bluebird": "~2.9.8",
-    "lodash": "~3.1.0"
+    "bluebird": "~2.9.34",
+    "lodash": "~3.10.1"
   },
   "devDependencies": {
-    "grunt-release": "~0.11.0",
-    "grunt-contrib-jshint": "^0.11.0",
-    "load-grunt-tasks": "~3.1.0",
-    "mocha": "~2.1.0",
+    "grunt-release": "~0.13.0",
+    "grunt-contrib-jshint": "^0.11.3",
+    "load-grunt-tasks": "~3.2.0",
+    "mocha": "~2.3.0",
     "grunt-mocha-test": "~0.12.7",
     "grunt": "~0.4.5",
-    "chai": "~1.10.0",
-    "sinon": "~1.12.2",
+    "chai": "~3.2.0",
+    "sinon": "~1.16.1",
     "grunt-cli": "^0.1.13"
   }
 }
