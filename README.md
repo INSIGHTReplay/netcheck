@@ -102,6 +102,6 @@ Events emitted:
 
 ## License
 
-Copyright ©2015 Insight Replay, Inc. Licensed under the MIT license.
+Copyright ©2016 Insight Replay, Inc. Licensed under the MIT license.
 
 [Bluebird]: https://github.com/petkaantonov/bluebird
