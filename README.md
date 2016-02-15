@@ -89,6 +89,10 @@ Events emitted:
 
 ## Release History
 
+- **v1.0.0**, *15 Feb 2016*
+    - Fixed problem with is-online dependency 5.1.0 being broken.
+    - Updated all packages to latest and locked versions.
+    - Lib is now considered stable and reliable.
 - **v0.0.1**, *04 Sep 2015*
     - Big Bang
 
