@@ -14,11 +14,9 @@
     "type": "git",
     "url": "https://github.com/INSIGHTReplay/netcheck"
   },
-  "licenses": [
-    {
-      "type": "MIT"
-    }
-  ],
+  "license": {
+    "type": "MIT"
+  },
   "engines": {
     "node": ">=0.12.0"
   },
