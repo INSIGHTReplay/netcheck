@@ -60,7 +60,9 @@ netcheck.hasLocal()
 * `init()` Starts the connectivity monitor, you only need to invoke this once.
 * `hasInternet()` Returns a [bluebird][Bluebird] Promise and informs if Internet is accessible.
 * `hasLocal()` Returns a [bluebird][Bluebird] Promise and informs if node server is connected to a local network.
+* `reset()` Resets the state of netcheck.
 * `setup(options)` Define options for the monitor operation:
+    * `customHostname` *Type*: **String** *Default*: `null` By defining this option you are instructing netcheck to check this hostname for online determination, values can be `www.google.com`, `www.google.com:80`.
     * `monitorInternet` *Type*: **Boolean** *Default*: `true` Enable or disable Internet monitor.
     * `monitorLocal` *Type*: **Boolean** *Default*: `true` Enable or disable local network monitor.
     * `intervalInternet` *Type*: **Number** *Default*: `60000` Define the monitor interval in milliseconds for Internet check, default is 1min.
