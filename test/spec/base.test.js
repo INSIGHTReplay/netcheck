@@ -17,6 +17,7 @@ describe('Base API Surface', function() {
       'setup',
       'hasInternet',
       'hasLocal',
+      'reset',
     ]);
   });
 });

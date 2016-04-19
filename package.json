@@ -14,11 +14,9 @@
     "type": "git",
     "url": "https://github.com/INSIGHTReplay/netcheck"
   },
-  "licenses": [
-    {
-      "type": "MIT"
-    }
-  ],
+  "license": {
+    "type": "MIT"
+  },
   "engines": {
     "node": ">=0.12.0"
   },
@@ -26,21 +24,22 @@
     "test": "./node_modules/.bin/grunt jshint:lib && ./node_modules/.bin/mocha -b test/spec -u bdd  -R spec"
   },
   "dependencies": {
-    "bluebird": "3.3.1",
+    "bluebird": "3.3.5",
     "cip": "1.0.0",
-    "is-online": "5.0.1",
-    "lodash": "4.3.0",
+    "is-online": "5.1.1",
+    "is-reachable": "^1.3.0",
+    "lodash": "4.11.1",
     "network": "0.1.3"
   },
   "devDependencies": {
     "grunt-release": "0.13.0",
-    "grunt-contrib-jshint": "0.12.0",
-    "load-grunt-tasks": "3.4.0",
+    "grunt-contrib-jshint": "1.0.0",
+    "load-grunt-tasks": "3.5.0",
     "mocha": "2.4.5",
     "grunt-mocha-test": "0.12.7",
-    "grunt": "0.4.5",
+    "grunt": "1.0.1",
     "chai": "3.5.0",
     "sinon": "1.17.3",
-    "grunt-cli": "0.1.13"
+    "grunt-cli": "1.2.0"
   }
 }
