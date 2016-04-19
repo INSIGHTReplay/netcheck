@@ -1,6 +1,6 @@
 {
   "name": "netcheck",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "./lib/netcheck",
   "description": "Will monitor Internet and local network connectivity and inform about their state.",
   "homepage": "https://github.com/INSIGHTReplay/netcheck",
