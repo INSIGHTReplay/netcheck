@@ -14,9 +14,7 @@
     "type": "git",
     "url": "https://github.com/INSIGHTReplay/netcheck"
   },
-  "license": {
-    "type": "MIT"
-  },
+  "license": "MIT",
   "engines": {
     "node": ">=0.12.0"
   },
@@ -37,7 +35,7 @@
     "load-grunt-tasks": "3.5.0",
     "mocha": "2.4.5",
     "grunt-mocha-test": "0.12.7",
-    "grunt": "1.0.1",
+    "grunt": "0.4.1",
     "chai": "3.5.0",
     "sinon": "1.17.3",
     "grunt-cli": "1.2.0"
