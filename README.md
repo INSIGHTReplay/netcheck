@@ -91,6 +91,9 @@ Events emitted:
 
 ## Release History
 
+- **v1.1.0**, *19 Apr 2016*
+    - Introduced the `customHostname` option to ping a specific hostname.
+    - Added the `reset()` method.
 - **v1.0.0**, *15 Feb 2016*
     - Fixed problem with is-online dependency 5.1.0 being broken.
     - Updated all packages to latest and locked versions.
